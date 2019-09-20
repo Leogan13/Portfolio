@@ -1,0 +1,40 @@
+
+
+.about-page {
+  min-height: 100vh;
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+  h1 {
+    padding: 4rem 0;
+    font-size: 3rem;
+    color:white;
+  }
+
+  .content-grid {
+    
+    flex: auto;
+  }
+
+  .about-wrapper {
+    
+    .about-content {
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      
+    
+
+      p {
+        font-weight: 400;
+        padding: 0.5rem 0;
+        font-size: 1.2rem;
+      }
+
+    
+    }
+  }
+
+}

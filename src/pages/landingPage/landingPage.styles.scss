@@ -1,0 +1,53 @@
+
+
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+
+  main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  
+    text-align: center;
+    
+
+    .intro-wrapper {
+      flex: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      > .intro-name {
+        font-family: 'Reem Kufi', sans-serif;
+        font-size: 4rem;
+        font-weight: bold;
+        line-height: 1rem;
+        padding-bottom: 1rem;
+        color: white;
+
+      
+      }
+
+      > .tagline {
+        font-size: 3rem;
+        margin: 1.5rem 0;
+        font-weight: 300;
+        color: blue;
+        font-weight: bold;
+       
+
+       
+      }
+    }
+
+    
+  }
+}
